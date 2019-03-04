@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "company-website-gatsby",
+  "builds": [
+    {
+      "src": "web/package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "web/public" }
+    }
+  ],
+  "alias": ["company-website-gatsby.now.sh"]
+}
